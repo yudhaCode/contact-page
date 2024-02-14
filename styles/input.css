@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.form-select {
+  background-image: url("/assets/down-arrow-5-svgrepo-com.svg");
+
+  background-blend-mode: multiply;
+
+  background-size: 0.7rem;
+  background-position: right 0.7rem center;
+}
