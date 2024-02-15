@@ -14,3 +14,7 @@ body {
   background-size: 0.7rem;
   background-position: right 0.7rem center;
 }
+
+input {
+  @apply bg-customWhite;
+}

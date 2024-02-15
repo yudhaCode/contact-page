@@ -8,8 +8,9 @@ module.exports = {
       }),
       colors: {
         customGray: "#CDD5E0",
-        customBlue: "#9958B4",
-        customDark: "#101729",
+        customWhite: "#F8FAFC",
+        customBlue: "#4036A9",
+        customDark: "#111729",
         customPink: "#B44677",
         customDarkBlue: "#4036A9",
       },

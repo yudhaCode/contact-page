@@ -18,7 +18,7 @@
   </head>
   <body class="">
     <section
-      class="bg-custom-bg-image h-full transform bg-cover p-6 text-white lg:h-[71.75rem] lg:px-8"
+      class="h-full transform bg-custom-bg-image bg-cover p-6 text-white lg:h-[71.75rem] lg:px-8 xl:px-[4.5rem]"
     >
       <!-- Logo -->
       <header class="mb-[3.25rem]">
@@ -27,20 +27,22 @@
 
       <!-- Title -->
       <h1
-        class="mx-auto max-w-xl text-center text-5xl font-bold leading-normal"
+        class="mx-auto max-w-xl text-center text-5xl font-bold leading-normal xl:text-[4rem]"
       >
         Interested in our business pricing?
       </h1>
 
       <!-- Title Description -->
-      <p class="mx-auto max-w-xs text-center text-base">
+      <p
+        class="mx-auto max-w-xs text-center text-base leading-snug xl:max-w-2xl xl:text-[2rem]"
+      >
         Fill out the form to view details and we’ll contact you as soon as
         possible.
       </p>
 
       <!-- Conta Form -->
       <form
-        class="mx-auto mt-[4.875rem] flex flex-col gap-4 rounded-3xl bg-white bg-opacity-10 px-8 pb-[5.125rem] pt-[2.125rem] xl:max-w-[50.625rem]"
+        class="mx-auto mt-[4.875rem] flex flex-col gap-4 rounded-3xl bg-white bg-opacity-10 px-8 pb-[5.125rem] pt-[2.125rem] lg:pb-[2.125rem] xl:max-w-[50.625rem]"
       >
         <div class="gap-4 lg:flex lg:gap-5">
           <!-- Name -->
@@ -51,7 +53,7 @@
               id="name"
               name="name"
               placeholder="Elthan Jhonson"
-              class="placeholder:text-customGray text-customDark mt-[8px] rounded-2xl p-[1.75rem] text-base"
+              class="mt-[8px] rounded-2xl p-[1.75rem] text-base text-customDark placeholder:text-customGray"
               required
             />
           </div>
@@ -64,7 +66,7 @@
               id="company_email"
               name="company_email"
               placeholder="ethan@jhonson.com"
-              class="placeholder:text-customGray text-customDark mt-[8px] rounded-2xl p-[1.75rem] text-base"
+              class="mt-[8px] rounded-2xl p-[1.75rem] text-base text-customDark placeholder:text-customGray"
               required
             />
           </div>
@@ -78,7 +80,7 @@
               id="company_size"
               name="company_size"
               selected
-              class="form-select placeholder:text-customGray text-customDark mt-[8px] appearance-none rounded-2xl bg-no-repeat p-[1.75rem] text-base font-medium"
+              class="form-select mt-[8px] appearance-none rounded-2xl bg-no-repeat p-[1.75rem] text-base font-medium text-customDark placeholder:text-customGray"
               required
             >
               <option value="small">50 - 100 employees</option>
@@ -93,7 +95,7 @@
             <select
               id="company_size"
               name="company_size"
-              class="form-select placeholder:text-customGray text-customDark mt-[8px] appearance-none rounded-2xl bg-no-repeat p-[1.75rem] text-base font-medium"
+              class="form-select mt-[8px] appearance-none rounded-2xl bg-no-repeat p-[1.75rem] text-base font-medium text-customDark placeholder:text-customGray"
               required
             >
               <option value="landing-pages">Building Landing pages</option>
@@ -109,9 +111,9 @@
           <textarea
             id="message"
             name="message"
-            rows="4"
+            rows="6"
             placeholder="50 - 100 employees"
-            class="placeholder:text-customDark text-customDark mt-[8px] rounded-2xl p-[1.75rem] text-base font-medium"
+            class="mt-[8px] rounded-2xl p-[1.75rem] text-base font-medium text-customDark placeholder:text-customDark"
             required
           ></textarea>
         </div>
@@ -119,7 +121,7 @@
         <!-- Tombol Submit -->
         <button
           type="submit"
-          class="text-customDarkBlue w-full rounded-2xl bg-white py-4 text-base font-bold transition-opacity duration-300 hover:opacity-80"
+          class="w-full rounded-2xl bg-white py-4 text-base font-bold text-customDarkBlue transition-opacity duration-300 hover:opacity-80"
         >
           Contact Sales
         </button>
